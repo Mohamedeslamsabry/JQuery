@@ -1,0 +1,196 @@
+:root{
+  scroll-behavior: auto;
+}
+#Home{
+  background-image: linear-gradient(#8a2224ce,#8a22245b),  url('../images/events-heavenly-header.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-cap h1{
+  font-size: 60px;
+  color: #fff;
+  line-height: 72px;
+}
+.home-cap p{
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+}
+#Home .open{
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.setting{
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: #000;
+ width: 0;
+ overflow: hidden;
+ z-index: 9999;
+}
+
+.setting a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 40px 20px 30px;
+  display: block;
+  font-size: 22px;
+  transition: all .5s;
+  margin-right: 50px;
+}
+
+.setting a:hover{
+  color:#8a2224ce ;
+}
+
+
+.setting span{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.setting span:hover{
+  color:#8a2224ce ;
+}
+
+
+/* !=============== */
+
+#Duration{
+  margin: 100px auto;
+  width: 50%;
+
+}
+#Duration h3{
+  padding: 10px ;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgba(214, 46, 51, 0.6);
+  margin: 0;
+}
+
+#Duration div{
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.sig-2{
+  display: none;
+}
+
+.sig-3{
+  display: none;
+}
+
+.sig-4{
+  display: none;
+}
+
+
+/* !--------------- */
+
+#Detalis{
+  background-image:linear-gradient(rgba(214, 46, 52, 0.788),rgba(214, 46, 51, 0.6)),  url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin: 50px 0;
+    padding: 50px;
+}
+
+
+
+.brdr{
+  padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+/* !--------------- */
+#Contact{
+  margin: 50px 0;
+}
+
+
+#Contact  h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#Contact .head p{
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+}
+
+#Contact h3{
+  color: #444;
+  font-size: 18px;
+  font-weight: bold
+}
+#Contact .caption p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+  text-align: center;
+}
+.icon{
+  margin-top: 50px;
+}
+.icon p{
+  margin-bottom: 35px
+}
+.icon i{
+  padding: 0 30px;
+}
+
+
+.red{
+  color: #D62E33 !important
+}
+
+.social i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition:  all .5s;
+}
+
+.social i:hover{
+  background-color: red;
+}
+
+/* !================  */
+textarea{
+  height: 200px;
+  resize: vertical
+}
+
+
+/* !=========== */
